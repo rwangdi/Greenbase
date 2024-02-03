@@ -1,0 +1,82 @@
+//overwriting bootstrap colors
+$primary: #1e5eff;
+$secondary: #6e0bd4;
+$success: #06a561;
+$danger: #f0142f;
+$primary-300: #ecf2ff;
+
+//custom margin and padding
+$spacer: 16px !default;
+$spacers: (
+  0: 0,
+  2: 2px,
+  4: 4px,
+  6: 6px,
+  8: 8px,
+  10: 10px,
+  12: 12px,
+  14: 14px,
+  16: 16px,
+  18: 18px,
+  20: 20px,
+  22: 22px,
+  24: 24px,
+);
+
+//custom font-sizes
+$display-font-sizes: (
+  6: 6px,
+  8: 8px,
+  10: 10px,
+  12: 12px,
+  14: 14px,
+  16: 16px,
+  18: 18px,
+  20: 20px,
+  22: 22px,
+  24: 24px,
+);
+
+$headings-line-height: 1.5 !default;
+$display-font-weight: 400 !default;
+// $display-line-height: $headings-line-height !default;
+
+//custom font-weight
+$font-weight-light: 400;
+$font-weight-normal: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+//changing units to px
+$nav-link-padding-y: 8px !default;
+$nav-link-padding-x: 6px !default;
+
+//changing units to px
+// $font-size-base: 16px !default;
+
+//custom font-size for h-tag
+$h1-font-size: 30px !default;
+$h2-font-size: 26px !default;
+$h3-font-size: 22px !default;
+$h4-font-size: 18px !default;
+
+//overwriting border-radius unit
+$border-radius: 4px !default;
+$modal-footer-margin-between: 8px;
+
+$position-values: (
+  0: 0,
+  24: 24px,
+);
+
+$paragraph-margin-bottom: 0;
+$headings-margin-bottom: 0 !default;
+$btn-white-space: nowrap !default;
+
+:root {
+  --primary: #1e5eff;
+  --secondary: #6e0bd4;
+  --success: #06a561;
+  --danger: #f0142f;
+  --primary-300: #ecf2ff;
+}
